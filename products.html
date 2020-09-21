@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+	<meta charset="utf-8"> <!-- Codages pour les caractères spéciaux -->
+	<title>	Birauto - Accueil </title> <!-- Titre de l'onglet -->
+	<link rel="stylesheet"  type="text/css" href="css/body.css"> <!-- Lien entre cette page et le fichier CSS indiqué -->
+	<link rel="stylesheet"  type="text/css" href="css/products.css"> <!-- Lien entre cette page et le fichier CSS indiqué -->
+	<link rel="icon" href="medias/Peugeot-logo-lion2.ico" /> <!-- Icone du site (Affichage dans l'onglet) -->
+</head>
+<body>
+
+
+<!-- Entête commune de toutes les pages -->
+<header class="navFix">
+<!-- Menue adapter à la repoonssive -->
+	<div class="togglearea">
+	<!-- Icone Menue responsive -->
+		<label for="toggle"> 
+			<span></span>
+			<span></span>
+			<span></span>
+		</label>
+	</div>
+	
+<!-- Barre de navigation -->
+
+	<input type="checkbox" id="toggle">
+	<ul class="topnav">
+		<li> <a href="index.html">Accueil</a> </li>
+		<!-- Menue déroulant -->
+			<li class="dropdown">
+				<a class="dropbtn"> À propos </a>
+				<div class="dropdown-content">
+					<a href="contact.html">Nous contacter</a>
+					<a href="rules.html"> Règlements </a>
+		   	</div>
+		 	</li>
+		<li> <a href="products.html">Nos produits</a> </li>
+		<li> <a href="services.html">Nos services</a> </li>
+	</ul> 
+</header>
+<!-- ---------------------------------- -->
+
+
+		<div id="banner"> 
+			<p class="birauto" > <a href="index.html" style="color:white" ><img src="medias/logo/birautov1.png" alt="logo"> </a> </p> <!-- Nom du site afficher sur le l'entête de fond -->
+			
+		</div> 
+			
+	<!-- Contenue de la page principale -->
+		<div class="pageContent">
+
+
+			<h2> Nos produits  </h2> <!-- Titre de la page -->
+
+
+
+		
+			<div class="pageContentPadding"> <!-- Marge du contenue interieur de la page pricnipale -->
+
+
+
+		<!-- Zone de recherche avancer -->
+			<div class="areaReSearch">
+			<h3> Recherche avancée </h3>  <!-- Titre -->
+				<form>
+
+					<label class="right"> <!-- Menue sélection etat du vehicule -->
+						<span> État </span>
+						<select> 
+							<option> Toutes les voitures</option>
+							<option> Voiture neuve </option>
+							<option> Voiture d'occasion  </option>
+						</select>
+					</label> 
+
+
+					<label>
+						<span> Modèle de voiture </span> <!-- Menue sélection du modèle de voiture-->
+						<select> 
+							<option> Tous </option>
+							<option> SUV PEUGEOT </option>
+							<option> PEUGEOT iOn  </option>
+							<option> PEUGEOT RIFTER  </option>
+							<option> PEUGEOT 4x4  </option>
+						</select>
+					</label> 
+
+					<label>
+						<span> Couleur </span> <!-- Menue de sélection de la couleur du vehicule -->
+						<select> 
+							<option> Tous</option>
+							<option> Blanc  </option>
+							<option> Noir  </option>
+							<option> Bleu  </option>
+							<option> Rouge  </option>
+						</select>
+					</label> 
+
+					
+
+					<label class="right">  <!-- Prix maximum à filtrer dans la rehcerche -->
+						<span> Budget max </span> 
+						<input type="number" step="100" value="3200" min="3000"> <!-- Champ de texte numérique avec intervale -->
+					</label> 
+
+					
+
+					<label>
+						<span> Année de sortie </span> <!-- Menue de sélection de l'anée de sortie du modèle -->
+						<select> 
+							<option> 2019 </option>
+							<option> 2015  </option>
+							<option> 2012  </option>
+							<option> 2009  </option>
+							<option> 2008  </option>
+						</select>
+					</label> 
+
+					<div class="margin">
+						<input type="checkbox" name="vehicle1"> Uniquement voitures électrique
+
+						<input type="submit" value="Rechercher">
+					</div>
+				</form>
+
+			</div>
+
+
+
+
+			
+				<div class="center">
+				<!-- Cadre du Produit -->
+					<div class="items">
+						<div class="titleItems"> SUV PEUGEOT 2008  </div>  <!-- Titre du produit -->
+						<img alt="Images" src="medias/products1.png"> <!-- Image du produit -->
+						<!-- Description du produit -->
+							<div class="priceItems">
+								à partir de <br>
+								<div class="price"> + 3600€ </div>
+							</div>
+							<span> Navigation 3D connectée </span>
+							<span> Grip control </span>
+
+						<a href="index.html">   Voir le produit   </a>
+					</div>
+
+
+				<!-- Cadre du Produit -->
+					<div class="items">
+						<div class="titleItems"> PEUGEOT RIFTER  </div>  <!-- Titre du produit -->
+						<img alt="Images" src="medias/products2.png"> <!-- Image du produit -->
+						<!-- Description du produit -->
+							<div class="priceItems">
+								à partir de <br>
+								<div class="price"> + 4000€ </div>
+							</div>
+							<span> Peugeot i-Cockpit </span>
+							<span> GAdvanced Grip Control </span>
+
+						<a href="#">   Voir le produit   </a>
+					</div>
+
+
+				<!-- Cadre du Produit -->
+					<div class="items">
+						<div class="titleItems"> PEUGEOT iOn   </div>  <!-- Titre du produit -->
+						<img alt="Images" src="medias/products3.png"> <!-- Image du produit -->
+						<!-- Description du produit -->
+							<div class="priceItems">
+								à partir de <br>
+								<div class="price"> + 5000€ </div>
+							</div>
+							<span> Charge rapide </span>
+							<span> Radio avec fonction Bluetooth </span>
+
+						<a href="#">   Voir le produit   </a>
+					</div>
+
+
+				<!-- Cadre du Produit -->
+					<div class="items">
+						<div class="titleItems"> SUV PEUGEOT 5008  </div>  <!-- Titre du produit -->
+						<img alt="Images" src="medias/products4.png"> <!-- Image du produit -->
+						<!-- Description du produit -->
+							<div class="priceItems">
+								à partir de <br>
+								<div class="price"> + 4200€ </div>
+							</div>
+							<span> 7 places intérieur </span>
+							<span> Boîte automatique EAT8 </span>
+							
+
+						<a href="#">   Voir le produit   </a>
+					</div>
+
+
+				<!-- Cadre du Produit -->
+					<div class="items">
+						<div class="titleItems"> SUV PEUGEOT 2008  </div>  <!-- Titre du produit -->
+						<img alt="Images" src="medias/products1.png"> <!-- Image du produit -->
+						<!-- Description du produit -->
+							<div class="priceItems">
+								à partir de <br>
+								<div class="price"> + 3600€ </div>
+							</div>
+							<span> Navigation 3D connectée* </span>
+							<span> Grip control* </span>
+
+						<a href="#">   Voir le produit   </a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	
+</body>
+</HTML>

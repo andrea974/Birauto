@@ -1,0 +1,193 @@
+/*partie sur les horaires, contacts*/
+.right{
+  background-color:#ececec;
+  float: right;
+  width: 26%;
+  height:500px; 
+  font-size: 20px;
+  padding: 15px;
+  padding-top: 0px;
+  -webkit-border-radius: 20px; /*webkit: sur tous les sites*/
+  box-shadow: 4px 4px 4px grey;
+}
+
+/*ajout de la taille juste pour le texte dans .right*/
+.right .info{
+  font-size:18px;
+}
+
+/*titres du right*/
+.right .title{
+  display: block;  /*display: type d'affichage/positionnement*/
+    font-weight: bold;
+    margin-top:30px;
+    border: solid #0861d3;
+    -webkit-border-radius: 10px;
+    background-color: #0861d3;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 6px grey;
+    text-shadow: 1px 1px 1px grey;
+    color: white;
+    text-align:center
+}
+
+/*formulaire*/
+form{
+  background-color: #ececec;
+  box-shadow: 4px 4px 4px grey;
+  -webkit-border-radius: 20px;
+  width: 65%;
+  padding:10px; 
+}
+
+/*intro du formulaire*/
+.formIntro{
+  text-align: left;
+}
+
+
+/*paragraphe du formulaire*/
+.formIntro p{
+  margin-left: 8px;
+  font-style: italic;
+}
+
+/*padding du renseignement*/
+form h1{
+  padding-left:10px;
+
+}
+
+/*margin du renseignement*/
+.formIntro p{
+  margin-bottom: 30px;
+}
+
+/*zone de texte dans le formulaire*/
+textarea{
+  height: 180px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 79%;
+  padding: 16px 20px;
+  border: none;
+  -webkit-border-radius: 4px;
+  background-color: #fff;
+}
+
+
+
+/*Garder la même taille de boite pour <input> et <select> pour pouvoir adapter*/
+input, select {
+  -webkit-box-sizing: border-box; /*chrome safari*/
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*champs du formulaire*/
+input{
+  width: 41%;
+  padding: 16px 20px;/* dessus droite bas gauche*/
+  border: none;/* sup de la bordure par défault*/
+  -webkit-border-radius: 4px;
+  background-color: #fff;
+  margin: 8px;
+
+}
+
+
+
+/*liste déroulante*/
+select {
+  width: 41%;
+  padding: 16px 20px;
+  border: none;
+  -webkit-border-radius :5px;
+  background-color: #fff;
+  margin: 8px;
+}
+
+/*liste déroulante: titre*/
+.categSujet{
+  color: black;
+  font-weight: bold;
+  margin-left: 23px;
+  position: absolute;
+
+}
+
+
+/*bouton envoyer*/
+.button {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  -webkit-border-radius: 10px;
+}
+
+/*bouton envoyer lors du survolage*/
+.button:hover {
+  background-color: #dbdbdb;
+}
+
+
+
+
+/* responsive*/
+@media screen and (max-width: 700px){
+  .right {
+    float: none;
+    height:auto; 
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  form{
+  width: 100%;
+  }
+
+  textarea{
+    height: 30%;
+  }
+
+  .bullRdv img{
+  display: none;
+}
+
+
+}
+.bullRdv{
+  margin: auto;
+  text-align: center;
+}
+
+.bullRdv img{
+   margin-bottom: -90px;
+   position: relative;
+   width: 15%; 
+   max-width: 120px;
+   box-sizing: border-box;
+}
+
+/*prise de rdv*/
+.bullInfo{
+  background: url('../medias/bulle-discu.png') no-repeat ;
+  width: 506px;
+  height: 240px;
+  text-align: center;
+  padding-top:20px  ;
+  padding-left: 15px;
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.bullInfo h1{
+  font-size: 25px;
+}

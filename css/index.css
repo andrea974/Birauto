@@ -1,0 +1,157 @@
+/* Zones des dernières actualités  */
+.actuality{
+	border: solid 1px #6d6d6d54;
+	margin: auto;
+	width: 90%;
+	min-width: 240px;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	text-align: left;
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+
+/* Titre de la Zones des dernières actualités  */
+.actuality h1{
+	font-weight: bold;
+	font-size: 25px;
+	background-color: #104f86;
+	color: white;
+	margin-bottom: 10px;
+}
+
+/* Images Zones des dernières actualités  */
+.actuality img{
+	width: 300px;
+	min-width: 220px;
+	margin-right: 10px;
+	float: left;
+	border: 1px solid #ccc !important;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+/* Paragraphes de la Zones des dernières actualités  */
+.actuality p{
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+/* Responssive de l'image Zones des dernières actualités (Affichage par défaut)  */
+.actuality .imgResponssive{
+	display: none;
+}
+
+
+/* Images Zones des dernières actualités  */
+@media screen and (max-width: 855px) { 
+/* Responssive de l'image Zones des dernières actualités (Affichage par défaut)  */
+	.actuality img{
+		display: none;
+	}
+
+/* Responssive de l'image Zones des dernières actualités (Affichage reponssive)  */
+	.actuality .imgResponssive{
+		display: block;
+		float: none;
+		text-align: center;
+		margin: auto;
+		width: 100%;
+	}
+
+/*¨Paragraphes de la Zones des dernières actualités  */
+	.actuality h1{
+		text-align: center;
+		margin: 0px;
+	}
+/* Zones des dernières actualités  */
+	.actuality{
+		max-width: 400px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Titre de la Zones des engagements */
+h3{
+	margin: auto; 
+	display: block;
+	background-color: #dbdada;
+	-webkit-border-radius: 10px;
+	text-transform: uppercase;
+	margin: 50px auto 20px auto; 
+	font-size: 18px;
+	text-align: center;
+	width: 70%;
+	text-align: center;
+	min-width: 745px;
+}
+
+/* Blocs des engagements */
+.commitment{
+	float: left;
+	margin: 0px 6px 0px 6px;
+	max-width: 60px;
+	height: 230px;
+	min-width: 240px;
+	background-color: #6993b9;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	text-align: left;
+	overflow:hidden;
+	text-align: center;
+	-webkit-border-radius: 10px;
+
+}
+
+/* Tire de chaque Blocs des engagements */
+.commitment .title {
+	width: 80% ;
+	background-color: #f0f0f0;
+	display: block;
+	-webkit-border-radius: 10px;
+	margin: auto; 
+	margin-top: 12px; 
+	font-size: 18px;
+}
+
+/* Paragraphes des Blocs des engagements */
+.commitment p{
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	padding: 0px 15px 0px 5px; 
+}
+
+/* Blocs du milieu des engagements */
+.commitmentPeer{
+	margin-top: 50px;
+} 
+
+
+/* Responssive des Blocs des engagements */
+@media screen and (max-width: 835px) { 
+
+/* Blocs des engagements */
+	.commitment{
+		display: block;
+		float: none;
+		margin-bottom: 30px;
+	}
+/* Blocs des engagements */
+	.commitmentPeer{
+		margin-top: 0px;
+	}
+	h3{
+	display: block;
+	min-width: auto;
+	}
+
+}

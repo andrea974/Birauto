@@ -1,0 +1,137 @@
+/*Arrondir tout images se trouvant dans des blockSerice*/
+.blockService img{
+	border-radius:80px;
+
+}
+
+/*Changer la taille des caractères de tout "h1" se trouvant dans blockService*/
+.blockService h1{
+font-size:25px;
+}
+
+/**Changer la taille des caractères de tout "p" se trouvant dans blockService**/
+.blockService p{
+	font-size:	20px;
+}
+
+/*Se charge dans la mise en page principale des écritures et des cadres*/
+.blockService  {
+	border-radius: 100px 	;
+	width: 80%;
+	height: 160px;
+	margin:auto;
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 15px;
+	background-color:#162133 ;
+	color: white;
+}
+
+/*Fonctionnalité hover: "survoler" avec la souris*/
+.blockService:hover {
+	background-color:#0861d3;
+	transform: scale(1.02);
+
+}
+
+.entretien {
+	margin-top: 80px;
+	text-align: center;
+	
+
+}		
+
+/*arrondi et espace de l'image*/
+.entretien img {
+	width: 100%;
+	border-radius: 70px;
+	margin-bottom: 40px;
+	max-width: 800px;
+}
+
+
+.entretien h1 {
+	padding:12px;
+	/*border:solid 1px;
+	color: white;
+	background-color: blue;
+	padding: 4px;
+	width: 70%;
+	margin: auto;*/
+	text-transform: uppercase; /*transformation en majuscule*/
+
+}
+
+.entretien a:hover{
+	color:#0861d3;
+}
+
+
+
+.left,.right{
+width: auto;
+height: 260px;
+padding-top: 10px;
+display: inline-block;
+
+}
+
+
+.left{
+	
+	float:left;
+
+
+}
+
+.right{
+margin-left: 35px;
+
+}
+
+.right a:hover,.left a:hover{
+
+color:#0861d3;
+
+}
+
+.right a{
+	color: black;
+}
+
+.left a{
+	color: black;
+}
+
+.colora {
+	color: white;
+}
+
+.barre{
+	float: left;
+
+}
+.listShop{
+	display: table;
+	margin: auto;
+}
+
+@media screen and (max-width: 600px) { 
+	.listShop{
+		display: flex;
+		list-style: none;
+	}
+}
+
+@media screen and (max-width: 600px) { 
+	.blockService p{
+	display: none;
+	}
+	.blockService h1{
+	display: none;
+	}
+
+	.blockService img{
+	text-align: center;
+	}
+}

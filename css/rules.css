@@ -1,0 +1,30 @@
+/*Contenue des blocs de règlement*/
+.contentRules {
+	height: 300px;
+	width: 40%;
+	min-width: 390px;
+	padding-top: 20px;
+	display: inline-block; /*Permet un affichage sur même ligne pour s'adapter à la reponssive (équivalent du "float")*/
+	margin: auto;
+	margin-right: 40px;
+	position: table;
+	text-align: left;
+}
+
+/*Titres du contenue des blocs de règlement*/
+.title{
+	font-weight: bold;
+	border: solid #FF6654;
+	background-color: #FF6654;
+	-webkit-border-radius:4px;
+	color: white;
+	text-shadow: 1px 1px 1px grey;
+}
+
+/* Listes (ul/li) pour la responssive */
+.contentRules ul{
+	display: table; /* Affichage en format tableau des balises listes (ul/li) pour la responssive soit adapter avec la propriété inline-block*/
+}
+
+
+

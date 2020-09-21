@@ -1,0 +1,10 @@
+- Ne modifier que sa partie concerner (.html et .css).
+- La mise en comun des modification apporter sera faite tous les jeudis.
+- N'oubliez de commenter vos lignes de codes pour vous aidez lors du passage à l'orale et situer vos collaborateurs
+- Pour créer les classes et id css , tout se passe dans le dossier "css"
+
+
+- Convention à repspecter :
+Lors d'un choix de nom, le mettre en anglais
+Lors d'un choix de nom, le mettre en respectant la casse (ex: variableTest) -> Le deuxième mot prend la MAJ
+Lors de la création d'une nouvelle page remplacer les espaces par un "-" (ex: page-numeros-2.html)

@@ -1,0 +1,223 @@
+/* Zone de recherche avancer */
+.areaReSearch {
+	width: 95%;
+	-webkit-border-radius: 4px;
+	background-color: #0087ff3d;
+	margin: auto;
+	font-size: 12px;
+	margin-bottom: 50px;
+	min-width: 440px;
+}
+
+/* Titre Zone de recherche avancer */
+.areaReSearch h3{
+	margin-bottom: 10px;
+	width: 100%;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+	background-color: #00539d;
+	color: #fff;
+	padding: 15px;
+	-webkit-border-radius: 1px 8px 1px 1px;
+	box-sizing: border-box;
+}
+
+/* Formulaire de Zone de recherche avancer */
+.areaReSearch form{
+	padding: 10px;
+	
+}
+
+/* Les étiquettes (critère) de Zone de recherche avancer */
+.areaReSearch label{
+	display: block;
+	width: 50%;
+	color: #0a1e59;
+}
+
+/* Classe pour mettre à droite de la Zone de recherche avancer */
+.areaReSearch .right{
+	float: right;
+	text-align: right;
+
+}
+
+ /*Garder la même taille de boite pour <input> et <select> pour pouvoir adapter*/
+input, select {
+	-webkit-box-sizing: border-box; /*chrome safari*/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/*liste déroulante*/
+.areaReSearch select {
+	font-size: 12px;
+	width: 50%;
+	padding: 10px 20px;
+	border: none;
+	-webkit-border-radius :5px;
+	background-color: #fff;
+	margin: 5px;
+
+}
+
+
+/*champs du formulaire*/
+.areaReSearch input{
+	font-size: 12px;
+	width: 50%;
+	padding: 10px 20px;
+	border: none;
+	-webkit-border-radius: 4px;
+	background-color: #fff;
+	margin: 5px;
+
+}
+
+/* Nom de l'étiquète (critère) de Zone de recherche avancer */
+.areaReSearch  label span{
+	width: 35%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+/* Espace du haut pour un contenue de la Zone de recherche avancer */
+.areaReSearch .margin{
+	margin-top: 50px;
+}
+
+/* Case à cocher de Zone de recherche avancer */
+.areaReSearch input[type=checkbox] {
+	width: auto;
+}
+
+
+
+/* Bouton rechercher de Zone de recherche avancer */
+.areaReSearch input[type=submit] {
+	width: 200px;
+	float: right;
+	margin-top: -10px;
+	background-color: #00539d;
+	color:white;
+}
+
+/* Survole du Bouton rechercher de Zone de recherche avancer */
+.areaReSearch input[type=submit]:hover {
+	background-color: #098bff;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Vignette d'info. du produit */
+ .items {
+	border-color: grey ;
+	width: 30%;
+	max-width: 270px;
+	min-width: 260px;
+	max-height: 430px;
+	margin:2%;
+	margin-bottom: 50px;
+	display: inline-block ;
+	background-color: #0087ff1c;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+ /* Le survol Les images de la Vignette d'info. du produit */
+.items:hover{
+	transform: scale(1.02);
+} 
+
+ /* Le titre de la Vignette d'info. du produit */
+.titleItems {
+	margin: 20px 20px 0px 20px;
+	font-weight: bold;
+	font-size: 18px;
+	border-color: white;
+	color: #fff;
+	color:#333;
+	text-transform: uppercase;
+
+}
+
+ /* Les images de la Vignette d'info. du produit */
+.items img{
+	width: 5%; 
+	max-width: 250px;
+	min-width: 200px;
+	margin: 5%;
+	transition: transform .2s;
+	
+}
+
+ /* Zone du prix de la Vignette d'info. du produit */
+.priceItems {
+	color:#022851;
+	font-weight: bold;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+ /* Prix de la Vignette d'info. du produit */
+.priceItems .price {
+	font-size: 30px;
+}
+
+ /* Point des listes de la Vignette d'info. du produit */
+.items span::before {
+	content: "•"; 
+	color: #034b97;
+	font-size: 30px;
+	line-height: 15px;
+}
+
+
+ /* listes des avantages de la Vignette d'info. du produit */
+.items span {
+	text-align: left;
+	margin-left: 35px;
+	list-style-type: none;
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+ /* Le liens de la Vignette d'info. du produit */
+.items a {
+	background-color: #034b97;
+	cursor: pointer;
+	padding: 12px 0px 12px 0px;
+	font-size: 15px;
+	color: white;
+	width: 100%;
+	border: 0px;
+	display: block;
+}
+
+/* Survole des liens de la Vignette d'info. du produit */
+.items a:hover {
+	background-color: #0272e8;
+}
+
+
+
+
+
